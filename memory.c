@@ -7,7 +7,7 @@
  * @old_size: Size, in bytes, of the allocated space for ptr
  * @new_size: New size, in bytes of the new memory block
  *
- * Return: Memory reallocated
+ * Return: Memory successfully reallocated
  **/
 void *_realloc(void *ptr, size_t old_size, size_t new_size)
 {
